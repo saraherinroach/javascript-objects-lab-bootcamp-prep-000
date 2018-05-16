@@ -1,4 +1,4 @@
 var recipes = {}
-function updateObjectWithKeyAndValue(obj,key,value) {
+function updateObjectWithKeyAndValue(object,key,value) {
   Object.assign ({},obj,{key:value})
 }
